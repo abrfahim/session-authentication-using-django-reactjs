@@ -1,0 +1,11 @@
+
+<form action="" method="POST" enctype="multipart/form-data">
+    {% csrf_token %}
+    <label for="">Name</label>
+    <input type="text" placeholder="Enter Your Name" name="name">
+    <label for="">Email</label>
+    <input type="email" placeholder="Enter Email Address" name="email">
+    <label for="">Profession</label>
+    <input type="text" placeholder="What is your Profession" name="profession">
+    <button class="btn btn-success btn-sm">send</button>
+</form>
